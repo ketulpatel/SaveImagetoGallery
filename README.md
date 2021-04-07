@@ -1,11 +1,15 @@
----AndroidManifest.xml---
+## AndroidManifest.xml
 
+```xml
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>'
+```
 
 
----activity_main.xml---
 
+## activity_main.xml
+
+```xml
 <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,10 +24,13 @@
         android:text="Save Image"
         android:id="@+id/savegallery"
         />
+```
 
 
----MainActivity.java---
 
+## MainActivity.java
+
+```java
 public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
@@ -82,6 +89,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
-
 }
+```
+
